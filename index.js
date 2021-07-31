@@ -246,7 +246,7 @@ setInterval(function () {
     }
     else{
         showScore();
-        
+        document.getElementById("containerBox").style.visibility="hidden";
         document.getElementById('timer').innerHTML = time;
         document.getElementById('nxt').style.display = "none";
     }
