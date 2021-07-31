@@ -271,4 +271,14 @@ footer {
   #name {
     margin-left: 160px;
   }
+  #start-page {
+    height: 100%;
+  }
+  header {
+    justify-content: center;
+  }
+  #name {
+    margin-left: 0;
+    margin-right: 50px;
+  }
 }
