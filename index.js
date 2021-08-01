@@ -83,13 +83,13 @@ let mcq = [
     },
     {
         
-        question: "What does CSS stand for?",
-        answer: "Cascading Style Sheets",
+        question: "What is the default value of the position property?",
+        answer: "static",
         options: [
-            "Computer Style Sheets",
-            "Colorful Style Sheets",
-            "Cascading Style Sheets",
-            "Creative Style Sheets"
+            "absolute",
+            "static",
+            "relative",
+            "fixed"
         ]
     },
     {
@@ -105,24 +105,24 @@ let mcq = [
     },
     {
         
-        question: "How do you select an element with id 'demo'?",
-        answer: "#demo",
+        question: "Which of the following defines 1% of viewport width?",
+        answer: "vw",
         options: [
-            "demo",
-            "*demo",
-            "#demo",
-            ".demo"
+            "px",
+            "vh",
+            "vw",
+            "vmin"
         ]
     },
     {
         
-        question: "What is the default value of the position property?",
-        answer: "static",
+        question: "Which of the following property specifies the time required for a transition effect to complete?",
+        answer: "transition-duration",
         options: [
-            "absolute",
-            "static",
-            "relative",
-            "fixed"
+            "transition-duration",
+            "transition-timing-function",
+            "transition-time",
+            "timing-transition"
         ]
     },
     {
