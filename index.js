@@ -349,5 +349,9 @@ setInterval(function () {
     final.classList.add("total");
     (comment.innerText).style.color="black";
     //comment.classList.add("remark");
-    
+    var vid = document.getElementById("vidvid");
+    if(vid.paused)
+    {
+        vid.play();
+    }
 }
