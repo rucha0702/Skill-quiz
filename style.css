@@ -6,8 +6,9 @@
 :root {
   --primary: rgba(110, 167, 4, 0.9);
   --secondary: white;
-  --tertiary: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  --tertiary: rgb(135, 182, 243);
   --color1: rgb(13, 35, 235);
+  --choice: rgb(238, 235, 235);
 }
 body {
   display: flex;
@@ -182,13 +183,21 @@ header #timer {
 #section .choice {
   padding: 10px;
   margin: 5px;
-  background: rgb(218, 212, 212);
+  background: var(--choice);
   cursor: pointer;
   transition: all 100ms ease;
 }
 #section .choice:hover {
   background: rgb(109, 107, 107);
   color: white;
+}
+#nxt_ans {
+  display: none;
+  position: relative;
+  z-index: 2;
+}
+#ans {
+  border: 1px blue solid;
 }
 header {
   flex: 0.2;
@@ -222,7 +231,7 @@ footer {
   /* margin-top: 10%; */
   width: 100%;
   /* height: 50%; */
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -251,11 +260,15 @@ footer {
   opacity: 1;
   border: none;
 }
+.hover_effect {
+  color: green;
+  font-weight: 600;
+}
 
 @media only screen and (max-width: 768px) {
   .box {
     width: 100%;
-    height: 100%;
+    height: 90%;
     border-radius: 0;
   }
   #section {
@@ -287,5 +300,8 @@ footer {
   }
   footer {
     border-radius: 0;
+  }
+  #quiz-choice-page button {
+    margin: 0 10px;
   }
 }
