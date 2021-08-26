@@ -72,12 +72,12 @@ let mcq = [
     },
     {
 
-        question: "Where is the <'script'> tag used?",
-        answer: "In the <'head'> and <'body'> tags",
+        question: "Where is the script tag used?",
+        answer: "In the head and body tags",
         options: [
-            "In the <'head'> tag",
-            "In the <'body'> tag",
-            "In the <'head'> and <'body'> tags",
+            "In the head tag",
+            "In the body tag",
+            "In the head and body tags",
             "Nowhere"
         ]
     },
